@@ -1,4 +1,4 @@
-import messageReceiver from './messageReceiver';
+import messageReceiver from "./messageReceiver";
 
 const message = "How are you doing today?";
 const offset = 10;

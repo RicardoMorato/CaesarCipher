@@ -1,4 +1,4 @@
-import messageHandler from './messageHandler';
+import messageHandler from "./messageHandler";
 
 const messageReceiver = (message, offset) => {
   const newMessage = messageHandler(message, offset);

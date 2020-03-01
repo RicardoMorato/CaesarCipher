@@ -1,4 +1,4 @@
-import cipher from './cipher';
+import cipher from "./cipher";
 
 const messageHandler = (message, offset) => {
   const messageArray = Array.from(message);
