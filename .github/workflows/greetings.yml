@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Welcome! Thank you for join our community, we hope you contribute with your best!'
+        pr-message: 'Thank you for opening this pull request! Please be aware to follow our pull request pattern'
