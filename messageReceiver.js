@@ -1,7 +1,7 @@
-import cipher from './cipher';
+import messageHandler from './messageHandler';
 
-const messageReceiver = (message) => {
-  const newMessage = cipher(message);
+const messageReceiver = (message, offset) => {
+  const newMessage = messageHandler(message, offset);
 
   return newMessage;
 };

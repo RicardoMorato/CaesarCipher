@@ -1,5 +1,5 @@
-const cipher = (message) => {
-  if ()
+const cipher = () => {
+
 };
 
 export default cipher();
