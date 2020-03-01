@@ -1,0 +1,25 @@
+{
+  "name": "caesarcipher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicardoMorato/CaesarCipher.git"
+  },
+  "keywords": [],
+  "author": "Ricardo Morato Rocha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RicardoMorato/CaesarCipher/issues"
+  },
+  "homepage": "https://github.com/RicardoMorato/CaesarCipher#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}
