@@ -1,4 +1,6 @@
 # MODULES
-
 node_modules
 yarn.lock
+
+# CONFIG FILES
+jest.config.js
