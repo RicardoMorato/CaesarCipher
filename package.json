@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "clear && jest"
+    "test": "jest",
+    "devTest": "clear && jest"
   },
   "repository": {
     "type": "git",
